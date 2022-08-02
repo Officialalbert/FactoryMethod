@@ -27,7 +27,7 @@ namespace Factorymethod
             {
                 "t" => new FactoryBedTea(100,"Bed with tea"),
                 "b" => new FactoryBedBee(120,"Bed with bee"),
-                _ => throw new Exception()
+                _ => throw new Exception("write t or b ")
             };
     }
 }
